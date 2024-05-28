@@ -1,0 +1,13 @@
+    /* General Webpage Style */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+    /* Landing Page Style */
+.landing-page {
+    width: 100vw;
+    height: 100vh;
+}
+
