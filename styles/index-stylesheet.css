@@ -1,13 +1,68 @@
-    /* General Webpage Style */
+    /****** Varialbes and Imports ******/
+:root {
+    --page-main-colour: #F1EFEF;
+    --main-colour-accent: #CCC8AA;
+    --supprting-colour-accent: #7D7C7C;
+    --main-font: "Playfair Display", serif;
+    --supporting-font: "DM Sans", sans-serif;
+}
+
+
+    /****** General Webpage Style ******/
 body, html {
     margin: 0;
     padding: 0;
+    font-family: var(--supporting-font);
+    color: #153448;
+}
+
+.subheading {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 0 0 400px;
+}
+
+.section-hor-line {
+    width: 100px;
+    height: 1px;
+    background-color: var(--supprting-colour-accent);
+    margin: 20px 0;
+}
+
+.section-headline {
+    color: var(--supprting-colour-accent);
 }
 
 
-    /* Landing Page Style */
+    /****** Landing Page Style ******/
 .landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
+    background-color: var(--page-main-colour);
 }
 
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin: 0 0 0 400px;
+}
+
+.landing-name {
+    font-size: 4rem;
+    font-family: var(--main-font);
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+    color: var(--main-colour-accent);
+}
+
+.small-about-me {
+    font-weight: 550;
+}
