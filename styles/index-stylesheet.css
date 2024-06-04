@@ -48,7 +48,7 @@ body, html {
 .landing-content {
     display: flex;
     flex-direction: column;
-    width: 650px;
+    width: 750px;
     margin: 0 0 0 400px;
 }
 
@@ -64,7 +64,7 @@ body, html {
 }
 
 .small-about-me {
-    font-weight: 550;
+    letter-spacing: 1px;
 }
 
 
@@ -81,7 +81,7 @@ body, html {
 .about-content {
     display: flex;
     flex-direction: column;
-    width: 650px;
+    width: 850px;
     margin: 0 0 0 400px;
 }
 
@@ -97,7 +97,7 @@ body, html {
 }
 
 .my-story {
-    font-weight: 550;
+    letter-spacing: 1px;
 }
 
 
@@ -109,4 +109,58 @@ body, html {
     width: 100vw;
     height: 100vh;
     background-color: var(--page-main-colour);
+}
+
+.work-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 0 400px;
+}
+
+.work-section-text {
+    width: 750px;
+}
+
+.work-title {
+    font-size: 4rem;
+    font-family: var(--main-font);
+    margin: 0;
+}
+
+.work-tagline {
+    margin: 0;
+    color: var(--main-colour-accent);
+}
+
+.work-text-body {
+    letter-spacing: 1px;
+}
+
+.work-section-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease;
+}
+
+.card-img:hover {
+    transform: scale(1.1);
 }
