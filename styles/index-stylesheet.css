@@ -12,9 +12,24 @@
 body, html {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     font-family: var(--supporting-font);
     color: #153448;
+    height: 100%;
+    width: 100%;
 }
+
+/* .horizontal-scroll-content {
+    display: flex;
+    width: 300vw;
+    height: 100vh;
+    transition: transform 0.3s ease-in-out;
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+} */
 
 .subheading {
     display: flex;
