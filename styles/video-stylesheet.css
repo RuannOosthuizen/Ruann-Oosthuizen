@@ -1,0 +1,35 @@
+/****** Varialbes and Imports ******/
+:root {
+    --page-main-colour: #F1EFEF;
+    --main-colour-accent: #CCC8AA;
+    --supprting-colour-accent: #7D7C7C;
+    --main-font: "Playfair Display", serif;
+    --supporting-font: "DM Sans", sans-serif;
+}
+
+
+    /****** General Webpage Style ******/
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: var(--supporting-font);
+    color: #153448;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* TEMP BACKGROUND */
+.temp-bg {
+    position: fixed;
+    background-color: #e5e5f7;
+    z-index: -1;
+    height: 300vh;
+    width: 100vw;
+    opacity: 0.8;
+    background-size: 150px 20px;
+    background-image:  repeating-linear-gradient(to right, #cbcbcb, #cbcbcb 1px, #F1EFEF 1px, #F1EFEF);
+}

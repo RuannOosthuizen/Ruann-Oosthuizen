@@ -67,7 +67,23 @@ body, html {
 }
 
 
-    /****** Landing Page Style ******/
+    /***** Navigation Style *****/
+.navigation-bar {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 600px;
+    position: fixed;
+    z-index: 5;
+    transition: top 0.3s;
+    top: 0;
+}
+
+
+
+
+    /***** Landing Page Style *****/
 .landing-page {
     display: flex;
     flex-direction: column;
@@ -100,7 +116,7 @@ body, html {
 }
 
 
-    /****** About Page Style ******/
+    /***** About Page Style *****/
 .about-me {
     display: flex;
     flex-direction: column;
@@ -133,7 +149,7 @@ body, html {
 }
 
 
-    /****** Work Page Style ******/
+    /***** Work Page Style *****/
 .my-work {
     display: flex;
     flex-direction: column;
