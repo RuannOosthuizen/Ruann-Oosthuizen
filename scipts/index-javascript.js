@@ -14,3 +14,17 @@
 //     });
 // });
 
+// Navigation hidden and re apear effect:
+// let prevScrollPos = window.pageYOffset;
+
+// window.onscroll = function() {
+//     let currentScrollPos = window.pageYOffset;
+
+//     if (prevScrollPos > currentScrollPos) {
+//         document.getElementById("navigation").classList.remove("navbar-hidden");
+//     } else {
+//         document.getElementById("navigation").classList.add("navbar-hidden");
+//     }
+
+//     prevScrollPos = currentScrollPos;
+// };
