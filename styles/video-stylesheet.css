@@ -95,6 +95,11 @@ ul.navigation .drop-down li a {
     white-space: nowrap;
 }
 
+.navigation a:hover {
+    text-decoration: none;
+    color: var(--main-colour-accent);
+}
+
 
 
     /****** Page Title Style ******/
