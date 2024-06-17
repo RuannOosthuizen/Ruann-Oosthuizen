@@ -152,8 +152,8 @@ ul.navigation .drop-down li a {
 
 .image-block {
     position: relative;
-    width: 500px;
-    height: 400px;
+    width: 20vw;
+    height: 40vh;
     overflow: hidden;
     cursor: pointer;
 }
