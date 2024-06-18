@@ -143,11 +143,10 @@ ul.navigation .drop-down li a {
 
 .artwork {
     background-color: var(--main-dark-colour);
-    width: 200px;
 }
 
 .img {
-    width: 190px;
+    width: 200px;
 }
 
 
