@@ -139,11 +139,15 @@ ul.navigation .drop-down li a {
     height: 150vh;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid columns */
-    gap: 5px; /* Adjust as needed */
+    gap: 5px;}
+
+.artwork {
+    background-color: var(--main-dark-colour);
+    width: 200px;
 }
 
 .img {
-    width: 200px;
+    width: 190px;
 }
 
 
