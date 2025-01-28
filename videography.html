@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style-sheets/videography-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <title>Ruann's Videos</title>
+    </head>
+    <body>
+        
+    <!-- Mouse Cursor div -->
+        <div class="custom-cursor"></div>
+
+    <!-- Navigation Section -->
+        <nav class="pc-nav-menu">
+            <div class="name-nav-content">
+                <a href="./index.html" class="navbar-name">Ruann Oosthuizen</a>
+            </div>
+            <div class="menu-nav-content">
+                <a href="./about.html" class="navbar-item">/About</a>
+                <div class="dropdown">
+                    <a href="#" class="navbar-item dropdown-toggle">/My Work</a>
+                    <div class="dropdown-menu">
+                        <a href="./videography.html" class="dropdown-item">Videography</a>
+                        <a href="./photography.html" class="dropdown-item">Photography</a>
+                        <a href="./graphic-design.html" class="dropdown-item">Graphic Design</a>
+                        <!-- <a href="./codespace.html" class="dropdown-item">Code Block</a> -->
+                    </div>
+                </div>
+                <a href="./resume.html" class="navbar-item">/Resume</a>
+                <a href="#" class="navbar-item">/Contact</a>
+            </div>
+        </nav>
+
+    <!-- Landing Page Section -->
+        <div class="work-showcase">
+            <div class="grid-column">
+                <a href="" class="showcase-img"><img src="./assets/videography-assets/Liminal-Poster.png" alt="LIMINAL"></a>
+                <a href="" class="showcase-img"><img src="./assets/videography-assets/showreel-img.png" alt="My Showreel"></a>
+                <a href="" class="showcase-img"><img src="./assets/videography-assets/gaming-vid-img.png" alt="Black Ops 2 Zombies"></a>
+                <a href="" class="showcase-img"><img src="./assets/videography-assets/insert-title-here-img.jpg" alt="Insert Title Here"></a>
+            </div>
+            <div class="grid-column">
+                <a href="" class="showcase-img"><img src="./assets/videography-assets/coffee-ad.jpg" alt="Coffee Commercial"></a>
+                <a href="" class="showcase-img"><img src="./assets/videography-assets/aquarium-vid.png" alt="A Visit to the Aquarium"></a>
+                <a href="" class="showcase-img"><img src="./assets/videography-assets/she-herself-and-her.jpg" alt="She, Herself and Her"></a>
+                <a href="" class="showcase-img"><img src="./assets/videography-assets/ran-out-of-coffee-img.jpg" alt="Ran Out of Coffee"></a>
+                <a href="" class="showcase-img"><img src="./assets/videography-assets/the-offer-img.png" alt="The Offer"></a>
+            </div>
+        </div>
+
+
+    <!-- Footer -->
+        <footer class="portfolio-footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>About Me</h3>
+                    <p>Based in Cape Town, South Africa. Passionate about creativity and crafting impactful digital experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social Media</h3>
+                    <ul class="social-links">
+                        <li><a href="https://twitter.com/yourhandle" target="_blank">Twitter</a></li>
+                        <li><a href="https://linkedin.com/in/yourhandle" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/yourhandle" target="_blank">GitHub</a></li>
+                        <li><a href="https://instagram.com/yourhandle" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ruann Oosthuizen. All rights reserved.</p>
+            </div>
+        </footer>
+    
+    </body>
+    <script>
+
+// Custom mouse cursor with smooth lagigng effect script:
+        const cursor = document.querySelector('.custom-cursor');
+
+        // Move the cursor with the mouse
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.top = `${e.clientY}px`;
+            cursor.style.left = `${e.clientX}px`;
+        });
+
+        // Add hover effect for clickable elements
+        document.querySelectorAll('a, button, .clickable').forEach((element) => {
+            element.addEventListener('mouseenter', () => {
+                cursor.classList.add('hovered'); // Add the class on hover
+            });
+
+            element.addEventListener('mouseleave', () => {
+                cursor.classList.remove('hovered'); // Remove the class on hover out
+            });
+        });
+
+    </script>
+</html>

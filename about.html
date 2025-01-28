@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style-sheets/about-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <title>Ruann Oosthuizen</title>
+    </head>
+    <body>
+
+    <!-- Mouse Cursor div -->
+        <div class="custom-cursor"></div>
+
+    <!-- Navigation Section -->
+        <nav class="pc-nav-menu">
+            <div class="name-nav-content">
+                <a href="./index.html" class="navbar-name">Ruann Oosthuizen</a>
+            </div>
+            <div class="menu-nav-content">
+                <a href="./about.html" class="navbar-item">/About</a>
+                <div class="dropdown">
+                    <a href="#" class="navbar-item dropdown-toggle">/My Work</a>
+                    <div class="dropdown-menu">
+                        <a href="./videography.html" class="dropdown-item">Videography</a>
+                        <a href="./photography.html" class="dropdown-item">Photography</a>
+                        <a href="./graphic-design.html" class="dropdown-item">Graphic Design</a>
+                        <!-- <a href="./codespace.html" class="dropdown-item">Code Block</a> -->
+                    </div>
+                </div>
+                <a href="./resume.html" class="navbar-item">/Resume</a>
+                <a href="#" class="navbar-item">/Contact</a>
+            </div>
+        </nav>
+
+    <!-- Video Editor section -->
+        <div class="vid-editor-bio">
+            <div class="bio-title-container">
+                <h3 class="bio-title">Video Editor</h3>
+            </div>
+            <div class="bio-text-container">
+                <img src="./assets/short-bio-assets/short-bio-img.jpeg" alt="" class="bio-self-img1">
+                <p class="vid-editor-text">Hey, I’m Ruann. I’m a passionate video editor with years of experience crafting engaging content that entertains and brings happiness to audiences around the world. I’ve worked across various industries, including entertainment, YouTube, and visual effects, collaborating on everything from video editing and scriptwriting to graphic design and content creation.
+                    I’m deeply inspired by storytelling and the impact a well-edited video can have on people. My dream has always been to create content that resonates emotionally with audiences and leaves them smiling or inspired.
+                    I’m all about creativity and pushing boundaries! Outside of editing, I love immersing myself in new creative projects, learning new tools, and finding innovative ways to bring ideas to life.
+                    Common adjectives people have used to describe me are: creative, detail-oriented, innovative, reliable, collaborative, and enthusiastic.</p>
+            </div>
+        </div>
+
+    <!-- videographer & photographer section -->
+        <div class="photo-video-bio">
+            <div class="bio-title-container photo-vid-title">
+                <h3 class="bio-title part1-title">Videographer</h3>
+                <h3 class="bio-title part2-title">& Photographer</h3>
+            </div>
+            <div class="bio-text-container">
+                <p class="vid-editor-text photo-vid-par">Hi, I’m Ruann. I’m passionate about capturing stories through videography and photography, creating visuals that inspire and evoke emotion. From cinematic video shoots to creative photography, I love exploring light, composition, and movement to bring ideas to life.
+                    For me, it’s about connecting with people, places, and moments—preserving memories in ways words can’t.
+                    Common adjectives people use to describe me are: artistic, curious, adaptable, and visionary.</p>
+                    <img src="./assets/short-bio-assets/placeholder-1.png" alt="" class="bio-self-img1 photo-vid-img">
+            </div>
+        </div>
+
+    <!-- personal bio section -->
+        <div class="my-bg-bio">
+            <div class="my-bg-titles">
+                <div class="my-bg-title-container">
+                    <h3 class="my-bg-titlepart1">Creative</h3>
+                    <h3 class="my-bg-titlepart2">Storyteller</h3>
+                </div>
+                <div class="my-bg-container">               
+                    <p class="my-bg-par">Hi, I’m Ruann. I’m passionate about capturing stories and creating moments that bring joy to others. I love experimenting with new ideas, finding beauty in the small things, and connecting with people through creativity.
+                    People often describe me as resourceful, imaginative, and deeply passionate. My goal? To inspire and leave others smiling.</p>
+                </div>
+            </div>
+            <div class="my-bg-img-container">
+                <img src="./assets/short-bio-assets/placeholder-2.png" alt="" class="bio-self-img1 my-bg-img">
+            </div>
+        </div>
+
+
+    <!-- Footer -->
+        <footer class="portfolio-footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>About Me</h3>
+                    <p>Based in Cape Town, South Africa. Passionate about creativity and crafting impactful digital experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social Media</h3>
+                    <ul class="social-links">
+                        <li><a href="https://twitter.com/yourhandle" target="_blank">Twitter</a></li>
+                        <li><a href="https://linkedin.com/in/yourhandle" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/yourhandle" target="_blank">GitHub</a></li>
+                        <li><a href="https://instagram.com/yourhandle" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ruann Oosthuizen. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </body>
+    <script>
+
+// Custom mouse cursor with smooth lagigng effect script:
+        const cursor = document.querySelector('.custom-cursor');
+
+        // Move the cursor with the mouse
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.top = `${e.clientY}px`;
+            cursor.style.left = `${e.clientX}px`;
+        });
+
+        // Add hover effect for clickable elements
+        document.querySelectorAll('a, button, .clickable').forEach((element) => {
+            element.addEventListener('mouseenter', () => {
+                cursor.classList.add('hovered'); // Add the class on hover
+            });
+
+            element.addEventListener('mouseleave', () => {
+                cursor.classList.remove('hovered'); // Remove the class on hover out
+            });
+        });
+
+    </script>
+</html>

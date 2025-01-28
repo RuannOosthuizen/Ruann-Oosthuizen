@@ -1,136 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/index-stylesheet.css">
-    <title>Ruann Oosthuizen</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style-sheets/index-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <title>Ruann Oosthuizen</title>
+    </head>
+    <body>
 
-    <!-- Navigation bar -->
-    <nav class="homemenu">
-        <ul class="navigation">
-            <li class="menu-item"><a href="./pages/about-me.html">About</a></li>
-            <li class="sub-menu"><a href="#work">Work</a>
-                <ul class="drop-down">
-                  <li class="menu-item drop-item"><a href="./pages/filmmaking-work.html">Filmmaking</a></li>
-                  <li class="menu-item drop-item"><a href="./pages/graphic-design-work.html">Graphic Design</a></li>
-                  <li class="menu-item drop-item"><a href="./pages/coding-work.html">Coding</a></li>
-                </ul>
-            </li>
-            <li class="menu-item"><a href="./pages/my-resume.html">Resume</a></li>
-        </ul>
-    </nav>
+    <!-- Mouse Cursor div -->
+        <div class="custom-cursor"></div>
 
-    <!-- bacground parallax images -->
-    <!-- <div class="parallax-container">
-
-    </div> -->
-
-
-    <!-- Horizontal scroll effect -->
-    <div class="horizontal-scroll-content">
-        
-        <div class="temp-bg">
-        </div>
-
-        <!-- Landing Page -->
-        <div class="landing-page section" id="landing">
-            <div class="subheading">
-                <div class="section-hor-line"></div>
-                <h3 class="section-headline">Portfolio</h3>
+    <!-- Navigation Section -->
+        <nav class="pc-nav-menu">
+            <div class="name-nav-content">
+                <a href="./index.html" class="navbar-name">Ruann Oosthuizen</a>
             </div>
-
-            <div class="landing-content">
-                <h1 class="landing-name">Ruann Oosthuizen</h1>
-                <h2 class="title">Film Production Expert and Dynamic Software Engineer</h2>
-                <p class="small-about-me">
-                    Combining technical prowess with creative flair, I excel as a Dynamic Software Engineer and Film Production Expert. With proficiency in full-stack development and a knack for crafting compelling narratives, I deliver innovative solutions and captivating visual content, driving excellence in both realms.
-                </p>
-            </div>
-        </div>
-
-
-        <!-- About div -->
-        <div class="about-me section" id="about">
-            <div class="subheading">
-                <div class="section-hor-line"></div>
-                <h3 class="section-headline">About</h3>
-            </div>
-
-            <div class="about-content">
-                <h2 class="about-title">About</h2>
-                <h2 class="about-intro">Hallo there!</h2>
-                <p class="my-story">
-                    Hi! I'm Ruann Oosthuizen. I'm currently a Web Developer and Administrative Coordinator at OpsFi and Digital Asset Studios. As a proud South African living in the beautiful city of Cape Town, I am a passionate video-maker, film enthusiast, web developer, and software engineer as well as a HUGE nerd and Star Wars fanatic. My designs and creations are neat, dynamic, and impactful, leaving a lasting impression.
-                    I love to tell stories and share laughs, whether through video-making, photography, or the intricate world of coding and I thrive on the opertuinity to talk about Star Wars lore. As a fast learner, I eagerly dive into new subjects that pique my interest, continuously expanding my skills to enhance my creative and technical work.
-                    My love for the creative world has taken me to incredible places and shown me the limitless possibilities of what I can create. This journey has motivated me to develop my own unique style and narrative, which I am excited to share and explore with others.
-                </p>
-            </div>
-        </div>
-
-
-        <!-- Work div -->
-        <div class="my-work section" id="work">
-            <div class="subheading">
-                <div class="section-hor-line"></div>
-                <h3 class="section-headline">Work</h3>
-            </div>
-
-            <div class="work-content">
-                <div class="work-section-text">
-                    <h2 class="work-title">My Work</h2>
-                    <h2 class="work-tagline">Transforming Concepts into Visual Masterpieces: Film, Graphics and Web.</h3>
-                    <p class="work-text-body">Dive into a showcase of innovation and artistry. From captivating films to dynamic graphic designs and intuitive web creations, my portfolio represents a journey of creativity and technical excellence.</p>
-                </div>
-
-                <div class="work-section-cards">
-                    <div class="card">
-                        <a href="./pages/filmmaking-work.html" class="card-bg">
-                            <img src="./assets/video_bg.jpg" alt="filmmaking-bg" class="card-img">
-                            <div class="card-content">
-                                <h2 class="card-title">Filmmaking</h2>
-                                <p class="card-paragraph">Here is a collection of all my filming, video editing and more project I have been apart of or created.</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card">
-                        <a href="./pages/graphic-design-work.html" class="card-bg">
-                            <img src="./assets/graphic_bg.jpg" alt="graphic-bg" class="card-img">
-                            <div class="card-content">
-                                <h2 class="card-title">Graphic Design</h2>
-                                <p class="card-paragraph">Here is a collection of all my graphical designs project I have been apart of or created.</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card">
-                        <a href="./pages/coding-work.html" class="card-bg">
-                            <img src="./assets/coding_bg.jpg" alt="coding-bg" class="card-img">
-                            <div class="card-content">
-                                <h2 class="card-title">Coding</h2>
-                                <p class="card-paragraph">Here is a collection of all my coding and web developing project I have been apart of or created.</p>
-                            </div>
-                        </a>
+            <div class="menu-nav-content">
+                <a href="./about.html" class="navbar-item">/About</a>
+                <div class="dropdown">
+                    <a href="#" class="navbar-item dropdown-toggle">/My Work</a>
+                    <div class="dropdown-menu">
+                        <a href="./videography.html" class="dropdown-item">Videography</a>
+                        <a href="./photography.html" class="dropdown-item">Photography</a>
+                        <a href="./graphic-design.html" class="dropdown-item">Graphic Design</a>
+                        <!-- <a href="./codespace.html" class="dropdown-item">Code Block</a> -->
                     </div>
                 </div>
+                <a href="./resume.html" class="navbar-item">/Resume</a>
+                <a href="#" class="navbar-item">/Contact</a>
+            </div>
+        </nav>
+
+    <!-- Landing Page Section -->
+        <div class="landing-section">
+            <div class="landing-text-container">
+                <span class="span1">My Work.</span>
+                <span class="span2">My Passion.</span>
+                <span class="span3">My Portfolio.</span>
+            </div>
+        </div>
+
+    <!-- My Work Section -->
+        <div class="my-work-section">
+            <div class="each-section-container">
+                <!-- content -->
+                <div class="videography-container">
+                    <div class="vid-content">
+                        <div class="text-column-left">
+                            <div class="card-title">
+                                <h5>● Vidoegraphy</h5>
+                            </div>
+                            <div class="work-info-left">
+                                <h1 class="work-card-title">Video Editing</h1>
+                                <p class="work-card-par">I created and edited a variety of video projects, from promotional content to short films, using creative storytelling and technical expertise to deliver engaging and visually impactful results.</p>
+                                <a href="./videography.html" class="work-card-bt">View Work</a>
+                            </div>
+                        </div>
+                        <div class="vid-column-right">
+                            <a href="./videography.html" class="card-video videography-gif object-place"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- content divider line -->
+                <div class="content-divider"></div>
+
+                <!-- content -->
+                <div class="photography-container">
+                    <div class="vid-content">
+                        <div class="vid-column-left">
+                            <a href="./photography.html" class="card-video photography-gif object-place"></a>
+                        </div>
+                        <div class="text-column-right">
+                            <div class="card-title">
+                                <h5>● Photography</h5>
+                            </div>
+                            <div class="work-info-right">
+                                <h1 class="work-card-title">Photography</h1>
+                                <p class="work-card-par">I captured and edited professional-quality photographs across various projects, using composition, lighting, and post-processing techniques to create visually compelling and impactful imagery.</p>
+                                <a href="./photography.html" class="work-card-bt">View Work</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- content divider line -->
+                <div class="content-divider"></div>
+
+                <!-- content -->
+                <div class="graphical-container">
+                    <div class="vid-content">
+                        <div class="text-column-left">
+                            <div class="card-title">
+                                <h5>● Graphic Design</h5>
+                            </div>
+                            <div class="work-info-left">
+                                <h1 class="work-card-title">Graphical</h1>
+                                <p class="work-card-par">I designed a range of graphics for various projects, combining creativity and technical skills to produce visually striking and effective designs that communicate clear messages and captivate audiences.</p>
+                                <a href="./graphic-design.html" class="work-card-bt">View Work</a>
+                            </div>
+                        </div>
+                        <div class="vid-column-right">
+                            <a href="./graphic-design.html" class="card-video graphical-gif object-place"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- content divider line -->
+                <div class="content-divider"></div>
+
+                <!-- content -->
+                <div class="codespace-container">
+                    <div class="vid-content">
+                        <div class="vid-column-left-code">
+                            <a href="./codespace.html" class="card-video-code codespace-gif object-place"><video autoplay loop muted playsinline><source src="./assets/codeblock-assets/codespace-holder.mp4" type="video/mp4"></video></a>
+                        </div>
+                        <div class="text-column-right">
+                            <div class="card-title">
+                                <h5>● Code block</h5>
+                            </div>
+                            <div class="work-info-right">
+                                <h1 class="work-card-title">Coding</h1>
+                                <p class="work-card-par">I developed websites and programs tailored to user needs, leveraging clean code and intuitive design to create functional, user-friendly, and visually appealing digital experiences.</p>
+                                <a href="./codespace.html" class="work-card-bt">View Work</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
 
-        <!-- Resume div -->
-        <div class="my-resume" id="resume">
-
+        <!-- short about section -->
+        <div class="short-bio-title">
+            <h5>● About Me</h5>
         </div>
-    </div>
-    
+        <div class="short-bio-container">
+            <div class="short-bio-content">
+                <div class="self-img-container">
+                    <a href="./about.html"><img src="./assets/short-bio-assets/short-bio-img.jpeg" alt="short-bio-img"></a>
+                </div>
+                <div class="self-bio-container">
+                    <div class="bio-text-container">
+                        <p class="short-bio-par">With over 7 years of experience in video editing and storytelling, I specialize in crafting visually captivating narratives that entertain and inspire. My passion lies in creating content that resonates with audiences, whether it’s through seamless editing, engaging visual effects, or compelling story arcs. Having worked on diverse projects across various industries, I bring creativity, technical expertise, and a dedication to producing high-quality work that leaves a lasting impression. Let’s create something unforgettable together!</p>
+                        <a href="./about.html" class="bio-page-bt">More On Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <script src="./scripts/index-javascript.js"></script>
 
-</body>
+        <!-- Footer -->
+        <footer class="portfolio-footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>About Me</h3>
+                    <p>Based in Cape Town, South Africa. Passionate about creativity and crafting impactful digital experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social Media</h3>
+                    <ul class="social-links">
+                        <li><a href="https://twitter.com/yourhandle" target="_blank">Twitter</a></li>
+                        <li><a href="https://linkedin.com/in/yourhandle" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/yourhandle" target="_blank">GitHub</a></li>
+                        <li><a href="https://instagram.com/yourhandle" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ruann Oosthuizen. All rights reserved.</p>
+            </div>
+          </footer>
+
+    </body>
+    <script>
+
+// Custom mouse cursor with smooth lagigng effect script:
+        const cursor = document.querySelector('.custom-cursor');
+
+        // Move the cursor with the mouse
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.top = `${e.clientY}px`;
+            cursor.style.left = `${e.clientX}px`;
+        });
+
+        // Add hover effect for clickable elements
+        document.querySelectorAll('a, button, .clickable').forEach((element) => {
+            element.addEventListener('mouseenter', () => {
+                cursor.classList.add('hovered'); // Add the class on hover
+            });
+
+            element.addEventListener('mouseleave', () => {
+                cursor.classList.remove('hovered'); // Remove the class on hover out
+            });
+        });
+
+    </script>
 </html>
