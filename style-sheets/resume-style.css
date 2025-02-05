@@ -133,6 +133,62 @@ body {
 
 
 
+/* Work Experience section style */
+.work-experience {
+    padding: 0 13vw;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+.experience-section-title {
+    font-size: var(--page-h2-size);
+    color: var(--accent-colour);
+}
+.experience-content {
+    display: flex;
+    gap: 5vw;
+}
+.experience-container {
+    flex: 2 1;
+}
+.work-point {
+    display: flex;
+}
+.listed-points {
+    margin-top: 5vh;
+}
+.experience-date {
+    width: 80px;
+}
+.experience-date p {
+    font-size: 14px;
+    color: var(--mint-colour);
+    margin-right: 40px;
+    margin-top: 5px;
+}
+.work-title {
+    font-size: var(--page-h2-size);
+    color: var(--agate-colour);
+    margin: 0px;
+}
+.company-loc {
+    margin: 2px;
+    font-size: var(--page-h3-size);
+}
+.experience-piece p {
+    width: 80%;
+}
+.ts-title {
+    font-size: var(--page-h2-size);
+    color: var(--accent-colour);
+    margin: 0;
+}
+/* .tool-point {
+
+} */
+
+
+
 /* Footer Style */
 .portfolio-footer {
     padding: 4vw;
