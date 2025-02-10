@@ -149,7 +149,8 @@ body {
     gap: 5vw;
 }
 .experience-container {
-    flex: 2 1;
+    /* flex: 2 1; */
+    width: 100%;
 }
 .work-point {
     display: flex;
@@ -178,6 +179,9 @@ body {
 .experience-piece p {
     width: 80%;
 }
+.tools-skills {
+    width: 30%;
+}
 .ts-title {
     font-size: var(--page-h2-size);
     color: var(--accent-colour);
@@ -186,6 +190,14 @@ body {
 .skills-container {
     margin-top: 70px;
 }
+.skill-point {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.skill-par {
+    margin: 5px 0 0 0;
+}
+
 
 
 
