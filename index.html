@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
         <title>Ruann Oosthuizen</title>
     </head>
     <body>
@@ -15,7 +16,7 @@
         <div class="custom-cursor"></div>
 
     <!-- Navigation Section -->
-        <nav class="pc-nav-menu">
+        <!-- <nav class="pc-nav-menu">
             <div class="name-nav-content">
                 <a href="./index.html" class="navbar-name">Ruann Oosthuizen</a>
             </div>
@@ -27,13 +28,24 @@
                         <a href="./videography.html" class="dropdown-item">Videography</a>
                         <a href="./photography.html" class="dropdown-item">Photography</a>
                         <a href="./graphic-design.html" class="dropdown-item">Graphic Design</a>
-                        <!-- <a href="./codespace.html" class="dropdown-item">Code Block</a> -->
                     </div>
                 </div>
                 <a href="./resume.html" class="navbar-item">/Resume</a>
-                <!-- <a href="./contact.html" class="navbar-item">/Contact</a> -->
             </div>
-        </nav>
+        </nav> -->
+        <div class="topnav" id="myTopnav">
+            <a href="./index.html" class="navbar-name split-nav">Ruann Oosthuizen</a>
+            <a href="./resume.html" class="navbar-item">Resume</a>            
+            <a href="./graphic-design.html" class="dropdown-item">Graphic Design</a>
+            <a href="./photography.html" class="dropdown-item">Photography</a>
+            <a href="./videography.html" class="dropdown-item">Videography</a>
+            <a href="./about.html" class="navbar-item">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="bi bi-list"></i>
+            </a>
+        </div>
+
+
 
     <!-- Landing Page Section -->
         <div class="landing-section">
@@ -43,6 +55,8 @@
                 <span class="span3">My Portfolio.</span>
             </div>
         </div>
+
+
 
     <!-- My Work Section -->
         <div class="my-work-section">
@@ -89,7 +103,7 @@
                 </div>
 
                 <!-- content divider line -->
-                <div class="content-divider"></div>
+                <div class="content-divider hid-mobile"></div>
 
                 <!-- content -->
                 <div class="graphical-container">
@@ -114,7 +128,7 @@
                 <div class="content-divider"></div>
 
                 <!-- content -->
-                <div class="codespace-container">
+                <!-- <div class="codespace-container">
                     <div class="vid-content">
                         <div class="vid-column-left-code">
                             <a href="./codespace.html" class="card-video-code codespace-gif object-place"><video autoplay loop muted playsinline><source src="./assets/codeblock-assets/codespace-holder.mp4" type="video/mp4"></video></a>
@@ -130,7 +144,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -204,6 +218,18 @@
                 cursor.classList.remove('hovered'); // Remove the class on hover out
             });
         });
+
+
+
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+        }
 
     </script>
 </html>
